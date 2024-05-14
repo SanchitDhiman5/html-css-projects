@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.up-logo{
+    max-width: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-family: "Red Rose";
+    /* margin-left: 20px; */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 212, 9);
+    font-weight: 900;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: rgb(245, 94, 94);
+    max-width: 120px;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: aliceblue;
+    border: 2px solid rgb(245, 94, 94);
+    border-radius: 5px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    
+}
+
+/* Main Content */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main h1{
+    color:rgb(255, 205, 7);
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.mainbtn{
+    background-color: rgb(245, 94, 94);
+    max-width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    color: aliceblue;
+    border: 2px solid rgb(245, 94, 94);
+    border-radius: 2px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .2s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+footer img{
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column; 
+    }
+
+    nav ul {
+        gap: 15px;
+        margin-left: 0; 
+    }
+
+    .btn {
+        padding: 8px 15px; 
+        font-size: 14px; 
+    }
+
+    main {
+        margin-top: 10vh; 
+    }
+
+    main h1 {
+        font-size: 2.5rem; 
+    }
+
+    .mainbtn {
+        max-width: 120px; 
+        padding: 8px 12px; 
+        font-size: 14px; 
+    }
+
+    footer {
+        padding: 0 5px;
+    }
+    footer img{
+        width: 100px;
+    }
+}
+
