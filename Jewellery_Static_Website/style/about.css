@@ -1,0 +1,12 @@
+nav{
+    background-color: #160e0b;
+    padding: 10px
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem 0.5rem;
+    cursor: pointer;
+    color: white;
+}
