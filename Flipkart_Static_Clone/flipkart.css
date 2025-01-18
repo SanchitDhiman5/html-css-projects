@@ -153,3 +153,156 @@ img[alt="main-logo-img"] {
 .nav-menu:hover {
   color: #2874f0;
 }
+
+/* Hero Image */
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.hero-img img {
+  width: 99%;
+  cursor: pointer;
+  /* margin: 0 5px; */
+}
+
+/* -------------- Main ----------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 99%;
+  height: 350px;
+  margin: 6px 0;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.247);
+}
+
+/* ---------------------------- Electro Section Heading ------------------ */
+.sec-head {
+  width: 17%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.sec-head p {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  cursor: default;
+}
+.sec-head button {
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Electro Section Products */
+.main-products {
+  width: 17%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+/* Electro Section Images Hover */
+.main-products:hover img {
+  transform: scale(1.1);
+}
+
+/* Electro Section Images */
+.main-products img[alt="camera-img"] {
+  padding-bottom: 1.2rem;
+}
+.main-products img[alt="monitor-img"] {
+  padding-top: 4rem;
+  padding-bottom: 4.35rem;
+}
+.main-products img[alt="trimmer-img"] {
+  padding-bottom: 1rem;
+}
+.main-products img[alt="printer-img"] {
+  padding-bottom: 1.8rem;
+  padding-top: 2rem;
+}
+.main-products img[alt="powerbank-img"] {
+  padding-bottom: 1rem;
+}
+
+.main-products .p1 {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.main-products .p2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #388e3c;
+  /* font-weight: 600; */
+}
+.main-products .p3 {
+  font-size: 0.9rem;
+  /* margin-bottom: 20px; */
+  opacity: 0.6;
+  /* font-weight: 600; */
+}
+
+/* -------------------------Beauty, Food, Toys Sections------------------  */
+.main-products img[alt="electro-cycle-img"] {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.main-products img[alt="RM-img"] {
+  padding-bottom: 2rem;
+}
+.main-products img[alt="softtoys-img"] {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.main-products img[alt="stationery-img"] {
+  padding-bottom: 1rem;
+  padding-top: 0.6rem;
+}
+.main-products img[alt="treadmill-img"] {
+  padding-bottom: 1rem;
+  padding-top: 0.6rem;
+}
+
+/* ----------------------- Gift Your Loved Ones ------------------------ */
+.main-products img[alt="choco-img"] {
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.main-products img[alt="clocks-img"] {
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.main-products img[alt="deodrant-img"] {
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.main-products img[alt="headphn-img"] {
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.main-products img[alt="tablet-img"] {
+  padding-bottom: 3rem;
+  padding-top: 4.6rem;
+}
