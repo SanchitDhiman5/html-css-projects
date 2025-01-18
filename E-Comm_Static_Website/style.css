@@ -83,3 +83,9 @@ nav {
   color: #000;
   margin-left: 5px;
 }
+
+/* -------------- Side Categories Menu and Hero Banner Section ------------- */
+.hero-banner-area {
+  width: 25%;
+  float: left;
+}

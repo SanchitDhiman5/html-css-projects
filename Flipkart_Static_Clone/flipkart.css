@@ -306,3 +306,47 @@ section {
   padding-bottom: 3rem;
   padding-top: 4.6rem;
 }
+
+/* ----------------------------Footer------------------------------- */
+
+footer {
+  padding-bottom: 10px;
+}
+.foot-sec1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin-top: 40px;
+  background-color: #172337;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.foot-list ul li {
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+.foot-list ul li:hover {
+  text-decoration: underline;
+}
+
+.foot-list p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #878787;
+}
+
+footer .foot-line {
+  color: #878787;
+  height: 0.01rem;
+  opacity: 0.2;
+}
+
+.foot-sec2 {
+  background-color: #172337;
+  height: 3rem;
+}
