@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  margin: 0 5%;
+}
+
+.common-btn-style {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #d19c97;
+  text-align: center;
+  min-width: 50px;
+}
+/* Navigation/Header */
+nav {
+  margin-top: 25px;
+}
+/* LOGO */
+.logo h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.logo h1 span:first-of-type {
+  color: #d19c97;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  padding: 0px 17px;
+}
+.arrange-nav-el-left {
+  float: left;
+}
+.logo {
+  width: 25%;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 50%;
+}
+#search-box {
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: #666;
+  font-size: 18px;
+  border-radius: 5px;
+  border-right: none;
+  outline: none;
+}
+.search-btn {
+  height: 40px;
+  margin-left: -7px;
+  border: 1px solid #ddd;
+  color: #d19c97;
+  font-size: 18px;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+/* Liked Products & Cart  */
+.products-and-cart {
+  width: 25%;
+  text-align: right;
+}
+.products-and-cart button {
+  height: 40px;
+  font-size: 17px;
+  text-align: center;
+  margin: 0 10px;
+}
+.products-and-cart span {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 5px;
+}
