@@ -5,7 +5,7 @@
   font-family: "Poppins", serif;
 }
 
-.container {
+header {
   margin: 0 5%;
 }
 
@@ -16,9 +16,10 @@
   text-align: center;
   min-width: 50px;
 }
-/* Navigation/Header */
+/* Navigation*/
 nav {
   margin-top: 25px;
+  min-height: 60px;
 }
 /* LOGO */
 .logo h1 {
@@ -85,7 +86,56 @@ nav {
 }
 
 /* -------------- Side Categories Menu and Hero Banner Section ------------- */
-.hero-banner-area {
+.full-banner-container {
+  border-top: 1px solid #ddd;
+}
+.banner-container {
+  clear: both;
+  margin: 0 5%;
+}
+
+/* Category Section(Left Banner Area) */
+.left-category-banner-area {
   width: 25%;
   float: left;
+}
+.category-menu-list-header {
+  background-color: #d19c97;
+  height: 65px;
+}
+.category-menu-list-header h4 {
+  display: inline-block;
+  margin: 20px 40px;
+  font-weight: 600;
+}
+.category-menu-list-header span {
+  float: right;
+  padding: 20px 28px;
+}
+.category-menu-list {
+  list-style: none;
+  border: 1px solid #ddd;
+}
+.category-menu-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 40px;
+}
+.category-menu-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Right Banner Section */
+.right-banner-list {
+  width: 75%;
+}
+
+.shop-menu {
+  display: flex;
+}
+.left-shop-menu-list {
+  width: 70%;
+}
+.right-shop-menu-list {
+  width: 30%;
 }

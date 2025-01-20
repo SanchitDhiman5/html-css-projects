@@ -22,7 +22,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <header>
       <!-- navigation bar -->
       <nav>
         <div class="logo arrange-nav-el-left">
@@ -46,24 +46,48 @@
           </button>
         </div>
       </nav>
-    </div>
+    </header>
 
     <!-- Side Categories Menu and Hero Banner Section -->
-    <section class="container">
-      <div class="hero-banner-area">
-        <div class="menu-list-header">
-          <h4>Categories</h4>
-          <span><i class="fa-solid fa-angle-down"></i></span>
+    <section class="full-banner-container">
+      <div class="banner-container">
+        <!-- Category Section(Left Banner Area) -->
+        <div class="left-category-banner-area">
+          <div class="category-menu-list-header">
+            <h4>Categories</h4>
+            <span><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <ul class="category-menu-list">
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">T-Shirts</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">SmartPhones</a></li>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Kitchen</a></li>
+          </ul>
         </div>
-        <ul>
-          <li><a href="#">Shirts</a></li>
-          <li><a href="#">T-Shirts</a></li>
-          <li><a href="#">Shoes</a></li>
-          <li><a href="#">SmartPhones</a></li>
-          <li><a href="#">Laptops</a></li>
-          <li><a href="#">Jackets</a></li>
-          <li><a href="#">Kitchen</a></li>
-        </ul>
+        <!-- Right Banner Section -->
+        <div class="right-banner-area">
+          <div class="shop-menu">
+            <ul class="left-shop-menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li class="pd-dropdown">
+                <a href="#">Product Details</a>
+                <ul class="pro-detail-list">
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Checkout</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="right-shop-menu-list">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   </body>
