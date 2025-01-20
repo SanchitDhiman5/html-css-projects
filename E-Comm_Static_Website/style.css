@@ -340,3 +340,93 @@ nav {
   background-color: transparent;
   cursor: pointer;
 }
+
+/* ----------------Products Card Section---------------- */
+.products-card-container {
+  margin: 0 5%;
+  clear: both;
+}
+.products-card-box {
+  float: left;
+  width: 25%;
+}
+.product-card {
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+.product-card div img {
+  width: 100%;
+}
+
+.p-card-details {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+.p-card-details > h6 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.p-card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-card-price h6 {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 500;
+}
+.p-card-price .comm-price {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.p-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.p-card-footer a {
+  color: #64db60;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Stay Updated Section */
+.stay-updated-container {
+  /* margin: 0 5%; */
+  clear: both;
+}
+.stay-updated-content {
+  margin-bottom: 100px;
+  background-color: #edf1ff;
+  text-align: center;
+  padding: 50px 32% 80px 32%;
+}
+.stay-updated-content p {
+  line-height: 2;
+  color: #666;
+  padding: 20px 0;
+}
+
+.mail-input {
+  display: flex;
+}
+.mail-input input {
+  flex: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.subscribe-btn {
+  border: 1px solid #64db60;
+  color: #000;
+  background-color: #64db60;
+  padding: 10px 30px;
+  font-size: 16px;
+}
