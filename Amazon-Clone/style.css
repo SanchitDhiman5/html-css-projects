@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+/* a Hover */
+a:hover {
+  text-decoration: underline;
+}
+/* Header */
+
+/* NavBar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 65px;
+  background-color: #0f1111;
+  color: white;
+}
+
+.navbar h4 {
+  font-size: 0.9rem;
+  color: white;
+}
+.navbar p {
+  font-size: 0.85rem;
+}
+
+/* Amazon Logo */
+.nav-logo {
+  height: 58px;
+  width: 110px;
+}
+.amz-logo {
+  background-image: url("./Resources/amazon_logo.png");
+  height: 58px;
+  width: 110px;
+  background-size: cover;
+}
+
+.nav-border {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* Nav-Logo | Hover */
+.nav-border:hover {
+  border: 1px solid white;
+}
+
+/* Nav-Address */
+.add-p {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-h {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Search Bar */
+.nav-search {
+  display: flex;
+  /* align-items: center; */
+  width: 55vw;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid #0f1111;
+}
+
+.nav-search select {
+  background-color: #f3f3f3;
+  width: 60px;
+  /* height: 40px; */
+  text-align: center;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.nav-search input {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  /* height: 40px; */
+}
+.search-icon {
+  width: 60px;
+  /* height: 40px; */
+  background-color: #fabd4b;
+  display: flex;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.search-icon i {
+  margin: auto;
+  font-size: 1.2rem;
+  color: #0f1111;
+}
+
+/* Nav Search | hover */
+.nav-search:hover {
+  border: 3px solid #fabd4b;
+}
+
+/* Nav Cart */
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart h4 {
+  display: inline;
+}
+/* --------------------------Header Nav-bar End---------------------------------- */
+
+/*---------------------------Header Panel Start--------------------------------- */
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #222f3d;
+  color: white;
+  height: 40px;
+}
+
+.panel-all p,
+.panel-ops p {
+  display: inline;
+  cursor: pointer;
+}
+.panel-all {
+  padding: 10px 7px;
+}
+.panel-ops {
+  width: 80%;
+}
+.panel-ops p {
+  /* margin-right: 10px; */
+  padding: 10px 7px;
+  font-size: 0.85rem;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  padding: 10px 7px;
+  font-weight: 600;
+}
+/*---------------------------Header Panel End---------------------------- */
+
+/* ---------------------------Hero Section Starts------------------------- */
+.hero-section {
+  background-image: url("./Resources/hero_image.jpg");
+  height: 380px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 80%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  text-decoration: none;
+  color: #007185;
+}
+.hero-msg a:hover {
+  text-decoration: underline;
+}
+/* -------------------------------Hero Sectio Ends------------------------- */
+
+/* -------------------------------Shoping Section Starts------------------- */
+.shop-section {
+  background-color: #e2e7e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.box {
+  height: 400px;
+  width: 330px;
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+.box:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.box h4 {
+  font-size: 1.1rem;
+  color: #0f1111;
+}
+.box p {
+  font-size: 0.85rem;
+  color: #007185;
+}
+
+.box img {
+  background-size: cover;
+  height: 70%;
+}
+/* -------------------------------Shoping Section Ends------------------- */
