@@ -356,6 +356,10 @@ nav {
 }
 .product-card div img {
   width: 100%;
+  /* object-fit: cover; */
+}
+.product-card div img:hover {
+  transform: scale(0.9);
 }
 
 .p-card-details {
@@ -394,8 +398,11 @@ nav {
   text-decoration: none;
   font-size: 14px;
 }
+.p-card-footer a i {
+  margin: 10px;
+}
 
-/* Stay Updated Section */
+/* -------------Stay Updated Section--------------- */
 .stay-updated-container {
   /* margin: 0 5%; */
   clear: both;
@@ -429,4 +436,102 @@ nav {
   background-color: #64db60;
   padding: 10px 30px;
   font-size: 16px;
+}
+
+/* -------------- Venders Banner Img Section --------------------- */
+.venders-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin-bottom: 100px;
+}
+.venders-list img {
+  border: 1px solid #ddd;
+}
+
+/* --------------- Footer ------------------- */
+.footer-container {
+  clear: both;
+}
+.footer-content-box {
+  background-color: #edf1ff;
+  /* margin-bottom: 100px; */
+  padding: 50px 5.5%;
+  display: flex;
+}
+
+.footer-elements-margin {
+  margin-right: 5%;
+}
+
+.footer-contact {
+  width: 25%;
+
+  float: left;
+}
+
+.footer-desc {
+  line-height: 1.5;
+  text-align: justify;
+  margin: 25px 0;
+}
+.footer-contact-list li {
+  line-height: 2.5;
+}
+.footer-contact-list li i {
+  color: #64db60;
+  width: 25px;
+}
+
+.quick-links {
+  float: left;
+  width: 25%;
+}
+.quick-links h3 {
+  margin-bottom: 20px;
+}
+.q-link-list {
+  line-height: 2;
+}
+.q-link-list a span {
+  color: #333;
+  font-weight: 400;
+  /* font-size: 13px; */
+  margin: 10px;
+}
+
+/* Footer News & Updates */
+.news-update-content {
+  width: 25%;
+  float: left;
+  text-transform: capitalize;
+}
+.news-update-content h3 {
+  margin-bottom: 20px;
+}
+.footer-input {
+  border: none;
+  width: 80%;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  height: 40px;
+  font-size: 16px;
+}
+.footer-btn {
+  border: none;
+  width: 80%;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #64db60;
+}
+
+/* Copy Right */
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin-top: 5px;
+  background-color: #edf1ff;
+  height: 40px;
+  text-align: center;
 }
