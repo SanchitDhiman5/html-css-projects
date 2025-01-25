@@ -230,3 +230,77 @@ a:hover {
   height: 70%;
 }
 /* -------------------------------Shoping Section Ends------------------- */
+
+/* -------------------------------Footer Starts----------------- */
+
+/* Footer Panel */
+.foot-panel {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+/* Footer List */
+.foot-list {
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.foot-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.foot-list ul p {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.foot-list ul a {
+  margin-bottom: 15px;
+  color: #dddddd;
+  font-size: 0.85rem;
+}
+
+/* Footer logo */
+.foot-logo {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-logo img {
+  height: 50px;
+  width: 100px;
+}
+
+/* Auther */
+.auther {
+  background-color: #0f1111;
+  color: white;
+  padding: 25px 0;
+}
+/* Pages & Copyright */
+.pages,
+.copyright {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.pages a {
+  color: white;
+  margin: 0 2px;
+}
+.copyright {
+  margin-top: 5px;
+}

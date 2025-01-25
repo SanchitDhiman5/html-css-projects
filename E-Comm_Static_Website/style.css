@@ -530,8 +530,5 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 5%;
-  margin-top: 5px;
   background-color: #edf1ff;
-  height: 40px;
-  text-align: center;
 }
