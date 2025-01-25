@@ -10,3 +10,43 @@ a {
 li {
   list-style: none;
 }
+
+/* -------------------Shop Header--------------------- */
+
+.shop-header {
+  background-color: #edf1ff;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 20px;
+}
+.shop-header h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.shop-header h3 {
+  color: #64db60;
+  font-weight: 600;
+  /* margin-bottom: 20px; */
+}
+
+/* ----------------------- MAIN ------------------------- */
+main {
+  margin: 0 5%;
+  clear: both;
+}
+
+/* Filter Section */
+.filter {
+  width: 25%;
+  float: left;
+}
+
+/* Listing Section */
+.listing {
+  width: 75%;
+  float: left;
+}
+
+.products-card-box {
+  width: 33%;
+}
