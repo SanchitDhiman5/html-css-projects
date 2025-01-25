@@ -82,7 +82,7 @@ nav {
   height: 40px;
   font-size: 17px;
   text-align: center;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
 }
 .products-and-cart span {
   font-size: 17px;
@@ -165,9 +165,13 @@ nav {
 } */
 .shop-menu a {
   color: #333;
+  padding: 10px;
+  /* background-color: #64db60; */
 }
 .shop-menu a:hover {
-  color: #64db60;
+  color: #333;
+  background-color: #64db60;
+  /* border: 1px solid #64db60; */
 }
 .pd-dropdown-list {
   display: none;

@@ -1,12 +1,124 @@
-@media only screen and(max-width:992px) {
-  /* header */
-  header .logo,
-  header .search-bar,
-  header .products-and-cart {
-    width: 100%;
-    background-color: black;
-  }
-  .arrange-nav-el-left {
+@media only screen and (max-width: 992px) {
+  /* Common Media Query for all elements */
+  .left-category-banner-area,
+  .right-banner-area,
+  .banner,
+  .services-box,
+  .main-category-item,
+  .spl-offer-banner-box,
+  .offer-banner-content img,
+  .products-card-box,
+  .footer-contact,
+  .quick-links,
+  .news-update-content {
     float: none;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  /* ---------- header---------- */
+  nav .logo,
+  nav .search-bar,
+  nav .products-and-cart {
+    width: 100%;
+    margin: 20px 0;
+  }
+  nav .arrange-nav-el-left {
+    float: none;
+  }
+
+  /* Search Bar */
+  nav .search-bar {
+    display: flex;
+  }
+  .search-bar input {
+    flex: 100%;
+  }
+
+  /* Liked Products & Cart  */
+  nav .products-and-cart {
+    text-align: left;
+  }
+
+  /* -----------Side Categories Menu and Hero Banner Section -----------*/
+
+  /* Right Banner Section */
+  .shop-menu {
+    margin: 50px 0;
+  }
+
+  .left-shop-menu-list,
+  .right-shop-menu-list {
+    width: 100%;
+    display: block;
+  }
+  .left-shop-menu-list li,
+  .right-shop-menu-list li {
+    padding: 10px;
+  }
+  /* Image Banner */
+  .banner {
+    margin: 0;
+  }
+  .banner-content {
+    gap: 44px;
+  }
+  .banner-content h4 {
+    font-size: 20px;
+  }
+  .banner-content h3 {
+    font-size: 30px;
+  }
+  .show-now {
+    padding: 8px 23px;
+    font-size: 13px;
+  }
+  /* ------------Brand Services Row Section -----------------*/
+  .services-box {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  /* -------------Stay Updated Section--------------- */
+  .stay-updated-content {
+    padding: 50px 5% 50px 5%;
+    text-align: center;
+  }
+  .mail-input {
+    width: 100%;
+  }
+  .mail-input input {
+    width: 70%;
+  }
+  .mail-input .subscribe-btn {
+    width: 30%;
+    padding: 5px 14px;
+    font-size: 16px;
+  }
+
+  /* -------------- Venders Banner Img Section ---------------------  */
+  .venders-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* --------------- Footer ------------------- */
+  .footer-content-box {
+    display: block;
+    text-align: center;
+  }
+  .footer-contact,
+  .quick-links,
+  .news-update-content {
+    margin: 20px 0;
+  }
+  /* Copy Right  */
+  .copy-right {
+    display: block;
+    text-align: center;
   }
 }
