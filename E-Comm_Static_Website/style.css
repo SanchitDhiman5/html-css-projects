@@ -523,6 +523,7 @@ nav {
   padding-left: 10px;
   height: 40px;
   font-size: 16px;
+  outline: none;
 }
 .footer-btn {
   border: none;
