@@ -531,4 +531,9 @@ nav {
   justify-content: space-between;
   padding: 0 5%;
   background-color: #edf1ff;
+  margin-top: 5px;
+}
+.copy-right div,
+.copy-right img {
+  padding: 10px 0;
 }

@@ -1,0 +1,12 @@
+@media only screen and(max-width:992px) {
+  /* header */
+  header .logo,
+  header .search-bar,
+  header .products-and-cart {
+    width: 100%;
+    background-color: black;
+  }
+  .arrange-nav-el-left {
+    float: none;
+  }
+}
