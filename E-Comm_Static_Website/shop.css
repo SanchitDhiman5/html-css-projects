@@ -14,7 +14,7 @@ li {
 /* -------------------Shop Header--------------------- */
 
 .shop-header {
-  background-color: #edf1ff;
+  background-color: #F4EFE6;
   text-align: center;
   padding: 100px 0;
   margin-bottom: 20px;
@@ -24,7 +24,7 @@ li {
   margin-bottom: 30px;
 }
 .shop-header h3 {
-  color: #64db60;
+  color: #A18249;
   font-weight: 600;
   /* margin-bottom: 20px; */
 }
@@ -34,11 +34,30 @@ main {
   margin: 0 5%;
   clear: both;
 }
+/* Select Items Section */
+.select-items {
+  text-align: right;
+  margin: 0 25px 0 25px;
+}
+.select-items select {
+  border: 1px solid #ddd;
+  height: 35px;
+  width: 130px;
+  padding: 0 10px;
+}
 
 /* Filter Section */
 .filter {
   width: 25%;
   float: left;
+}
+
+.custom-control-check {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 16px;
+  padding-left: 16px;
 }
 
 /* Listing Section */
@@ -50,3 +69,8 @@ main {
 .products-card-box {
   width: 33%;
 }
+
+#F4EFE6
+#1C160C
+#A18249
+#019863
