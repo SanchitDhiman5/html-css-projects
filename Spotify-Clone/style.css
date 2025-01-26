@@ -128,3 +128,113 @@ a {
 .playlist-btn:hover {
   transform: scale(1.06);
 }
+
+/* -------------------Main Content ------------------*/
+.main-content {
+  background-color: #121212;
+  flex: 1;
+  border-radius: 1rem; /* 16px */
+  overflow: auto;
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 1rem 0 1rem 0; */
+  height: 3rem;
+  z-index: 1;
+}
+
+.sticky-nav i,
+img {
+  cursor: pointer;
+}
+
+/* Sticky Nav Icons */
+.sticky-nav-icons {
+  margin-left: 0.8rem;
+}
+.sticky-nav-icons img {
+  margin-right: 0.5rem;
+}
+
+/* sticky-nav-options */
+.sticky-nav-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 0.5rem;
+  margin-right: 1.5rem;
+  /* width: 35%; */
+}
+
+.sticky-nav-options > button {
+  margin-right: 1.5rem;
+}
+
+.install-dark-btn {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ------------------------Sticky Nav Media Query------------------- */
+@media (max-width: 980px) {
+  .media-Q-hide {
+    display: none;
+  }
+}
+
+/* ------------------------Main Card Section---------------- */
+.main-cards > h2 {
+  margin: 1rem 0;
+}
+
+.card-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.card {
+  background-color: #232323;
+  width: 214px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.card-info {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* Main Footer Line */
+.footer-line {
+  border-top: 0.01rem solid white;
+  height: 200px;
+  margin-top: 100px;
+  opacity: 0.1;
+}
