@@ -59,7 +59,12 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  /* justify-content: space-around; */
+  justify-content: space-between;
+}
+
+.custom-control-check .left-checkbox {
+  display: flex;
+  align-items: center;
 }
 .custom-control-check input {
   appearance: none;
@@ -92,10 +97,7 @@ main {
   border: 1px solid #ddd;
   font-size: 12px;
   padding: 0 5px;
-  position: absolute;
-  left: 23%;
   color: #666;
-  /* margin-left: 50%; */
 }
 
 /* Listing Section */

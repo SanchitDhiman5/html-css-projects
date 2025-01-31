@@ -7,6 +7,7 @@
   height: 300px;
   align-items: center;
   justify-content: space-around;
+  margin: 10px 0;
 }
 
 .login-container input {
@@ -26,4 +27,16 @@
   color: #fff;
   cursor: pointer;
   font-size: 1.5rem;
+}
+
+/* Media Query */
+@media only screen and (max-width: 992px) {
+  .login-container {
+    width: 100%;
+    /* margin: 0 5%; */
+  }
+  .login-container input,
+  .login-container button {
+    width: 70%;
+  }
 }
