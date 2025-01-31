@@ -118,6 +118,18 @@ main {
 }
 
 @media only screen and (max-width: 992px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter,
+  .listing {
+    width: 100%;
+  }
+  .products-card-box {
+    width: 25%;
+  }
 }
 
 /* color: #f4efe6 #1c160c #a18249 #019863; */

@@ -405,6 +405,8 @@ nav {
   color: #8f7c59;
   text-decoration: none;
   font-size: 14px;
+  display: flex;
+  align-items: baseline;
 }
 .p-card-footer a i {
   margin: 10px;
