@@ -1,0 +1,23 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login-container input {
+  width: 30%;
+  height: 50px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.login-container button {
+  width: 30%;
+  height: 50px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #d19c97;
+  color: #fff;
+  cursor: pointer;
+}
