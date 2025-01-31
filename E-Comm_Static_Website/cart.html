@@ -53,306 +53,157 @@
     <main>
       <!-- ---------------- Shop header -------------------- -->
       <div class="shop-header">
-        <h1>Women Dress Collection</h1>
-        <h3>- Our Shop -</h3>
+        <h1>Your Shopping Details</h1>
+        <h3>- Cart Products -</h3>
       </div>
 
       <!-- ---------------- Main Section ----------------------- -->
-      <section class="hero-section">
-        <!-- Select Items Section -->
-        <section class="select-items">
-          <select name="" id="">
-            <option value="">Select Items</option>
-            <option value="1">By Name</option>
-            <option value="2">By Rating</option>
-            <option value="3">By Trend</option>
-          </select>
-        </section>
-
-        <!-- Filter Section -->
-        <section class="filter">
-          <!-- Filter By Price -->
-          <h3>Filter By Price</h3>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="price-all" />
-            <label class="cc-label" for="price-all">All</label>
-            <span class="filter-prod-count">1000</span>
+      <div class="cart-table-container">
+        <div class="cart-table">
+          <div class="cart-details">
+            <table>
+              <!-- Table Heading -->
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <!-- Table Body -->
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="./assets/cat-1.jpg" alt="" />
+                    <span>Men's Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button onclick="changeNumber(-1)">-</button>
+                      <input
+                        type="number"
+                        name=""
+                        class="numberInput"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <button onclick="changeNumber(1)">+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./assets/cat-2.jpg" alt="" />
+                    <span>Women's Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button onclick="changeNumber(-1)">-</button>
+                      <input
+                        type="number"
+                        name=""
+                        class="numberInput"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <button onclick="changeNumber(1)">+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./assets/cat-3.jpg" alt="" />
+                    <span>Kid's Shirt</span>
+                  </td>
+                  <td><span>$250</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button onclick="changeNumber(-1)">-</button>
+                      <input
+                        type="number"
+                        name=""
+                        class="numberInput"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <button onclick="changeNumber(1)">+</button>
+                    </div>
+                  </td>
+                  <td>$190</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./assets/cat-2.jpg" alt="offer-1" />
+                    <span>Women's Shirt</span>
+                  </td>
+                  <td><span>$350</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button onclick="changeNumber(-1)">-</button>
+                      <input
+                        type="number"
+                        name=""
+                        class="numberInput"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <button onclick="changeNumber(1)">+</button>
+                    </div>
+                  </td>
+                  <td>$100</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./assets/cat-1.jpg" alt="" />
+                    <span>Men's Shirt</span>
+                  </td>
+                  <td><span>$200</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button onclick="changeNumber(-1)">-</button>
+                      <input
+                        type="number"
+                        name=""
+                        class="numberInput"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <button onclick="changeNumber(1)">+</button>
+                    </div>
+                  </td>
+                  <td>$250</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="price-1" />
-            <label class="cc-label" for="price-1">$0-$100</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="price-2" />
-            <label class="cc-label" for="price-2">$100-$200</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="price-3" />
-            <label class="cc-label" for="price-3">$200-$300</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="price-4" />
-            <label class="cc-label" for="price-4">$300-Above</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-
-          <hr />
-
-          <!-- Filter By Brand -->
-          <h3>Filter By Brand</h3>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="brand-all" />
-            <label class="cc-label" for="brand-all">All</label>
-            <span class="filter-prod-count">1000</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="brand-1" />
-            <label class="cc-label" for="brand-1">Brand-1</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="brand-2" />
-            <label class="cc-label" for="brand-2">Brand-2</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="brand-3" />
-            <label class="cc-label" for="brand-3">Brand-3</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="brand-4" />
-            <label class="cc-label" for="brand-4">Brand-4</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-
-          <hr />
-
-          <!-- Filter By Size -->
-          <h3>Filter By Size</h3>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="Size-all" />
-            <label class="cc-label" for="Size-all">All</label>
-            <span class="filter-prod-count">1000</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="Size-1" />
-            <label class="cc-label" for="Size-1">Small</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="Size-2" />
-            <label class="cc-label" for="Size-2">Medium</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="Size-3" />
-            <label class="cc-label" for="Size-3">Large</label>
-            <span class="filter-prod-count">200</span>
-          </div>
-          <div class="custom-control-check">
-            <input type="checkbox" checked="" id="Size-4" />
-            <label class="cc-label" for="Size-4">Extra-Large</label>
-            <span class="filter-prod-count">300</span>
-          </div>
-        </section>
-
-        <!-- Listing Section -->
-        <section class="listing">
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 2 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 3 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item  -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Women Dress Item 1 -->
-          <div class="products-card-box">
-            <div class="product-card">
-              <div>
-                <img src="./assets/product-1.jpg" alt="" />
-              </div>
-              <div class="p-card-details">
-                <h6>colorful stylish shirt</h6>
-                <div class="p-card-price">
-                  <h6 class="curr-price">$120.00</h6>
-                  <h6 class="comm-price">$125.00</h6>
-                </div>
-              </div>
-              <div class="p-card-footer">
-                <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
-                <a href="#"
-                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
+        </div>
+      </div>
       <!-- ---------- Footer -------------- -->
       <div class="footer-container">
         <div class="footer-content-box">
@@ -476,5 +327,17 @@
         <img src="./assets/payments.png" alt="" class="foot-pay-img" />
       </div>
     </main>
+
+    <!-- JavaScript For Quantity Input Feature -->
+    <script>
+      function changeNumber(amount) {
+        let stepperDiv = event.target.closest(".quantity-input"); // Find the closest parent stepper div
+        let input = stepperDiv.querySelector(".numberInput");
+        if (input.value == 0 && amount == -1) {
+          return (input.value = 0);
+        }
+        input.value = parseInt(input.value) + amount;
+      }
+    </script>
   </body>
 </html>
