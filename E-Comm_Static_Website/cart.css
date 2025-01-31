@@ -1,8 +1,9 @@
-.cart-table-container {
+.cart-container {
   margin: 0 5%;
   clear: both;
 }
 
+/* -------- Cart Table -------------- */
 .cart-table {
   width: 75%;
   float: left;
@@ -73,4 +74,73 @@ td {
   padding: 5px;
   width: 30px;
   background-color: #d19c97;
+}
+
+/* ---------- Checkout Section -------------- */
+.checkout-box {
+  width: 25%;
+  float: left;
+}
+.cart-summary-wrapper {
+  margin: 50px 0 50px 20px;
+}
+
+/* Coupon Code */
+.cart-summary-wrapper .coupon-input {
+  display: flex;
+  height: 50px;
+}
+.coupon-input input {
+  border: 1px solid #ddd;
+  border-right: 0;
+  padding-left: 20px;
+  width: 60%;
+  outline-color: #d19c97;
+}
+.coupon-input button {
+  background-color: #d19c97;
+  border: 0;
+  width: 40%;
+  cursor: pointer;
+}
+
+/* Cart's Sub-Total and Shipping */
+.cart-sub-total-shipping {
+  border: 1px solid #d19c97;
+  margin-top: 50px;
+  padding: 20px;
+}
+.cart-sub-total-shipping div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.cart-sub-total-shipping div h6 {
+  font-size: 15px;
+}
+
+/* Total and Checkout */
+.total-wrapper {
+  border: 1px solid #ddd;
+  border-top: 0;
+  padding: 20px;
+}
+.total-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.total-head h4 {
+  font-size: 20px;
+}
+
+.checkout button {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #d19c97;
+  border: none;
 }

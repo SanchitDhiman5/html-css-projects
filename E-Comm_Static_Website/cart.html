@@ -58,8 +58,9 @@
       </div>
 
       <!-- ---------------- Main Section ----------------------- -->
-      <div class="cart-table-container">
-        <div class="cart-table">
+      <div class="cart-container">
+        <!-- -------- Cart Table -------------- -->
+        <section class="cart-table">
           <div class="cart-details">
             <table>
               <!-- Table Heading -->
@@ -202,7 +203,42 @@
               </tbody>
             </table>
           </div>
-        </div>
+        </section>
+
+        <!------------- Checkout Section------------------- -->
+        <section class="checkout-box">
+          <div class="cart-summary-wrapper">
+            <!-- Coupon Code -->
+            <div class="coupon-input">
+              <input type="text" placeholder="Enter Coupon Code " />
+              <button>Apply Coupon</button>
+            </div>
+            <!-- Cart's Sub-Total and Shipping -->
+            <div class="cart-sub-total-shipping">
+              <!-- Sub-Total -->
+              <div class="cart-sub-total">
+                <h6>Sub Total</h6>
+                <h6>$750</h6>
+              </div>
+              <!-- Shipping -->
+              <div class="cart-shipping">
+                <h6>Shipping</h6>
+                <h6>$10</h6>
+              </div>
+            </div>
+
+            <!-- Total and Checkout -->
+            <div class="total-wrapper">
+              <div class="total-head">
+                <h4>Total</h4>
+                <h4>$760</h4>
+              </div>
+              <div class="checkout">
+                <button>Proceed To Checkout</button>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <!-- ---------- Footer -------------- -->
       <div class="footer-container">
