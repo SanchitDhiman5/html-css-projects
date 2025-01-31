@@ -65,14 +65,14 @@ main {
   appearance: none;
   width: 20px; /* Custom width */
   height: 20px; /* Custom height */
-  border: 2px solid #d19c97; /* Border style and color */
+  border: 2px solid #8f7c59; /* Border style and color */
   border-radius: 3px;
   cursor: pointer;
   position: relative;
   /* top: 4px; */
 }
 .custom-control-check input:checked {
-  background-color: #d19c97;
+  background-color: #8f7c59;
 }
 .custom-control-check input:checked::before {
   content: "✓";
@@ -97,54 +97,6 @@ main {
   color: #666;
   /* margin-left: 50%; */
 }
-/* .custom-control-check {
-  position: relative;
-  z-index: 1;
-  display: block;
-  min-height: 16px;
-  padding-left: 16px;
-  cursor: default;
-}
-.custom-control-check input {
-  position: absolute;
-  left: 0;
-  z-index: -1;
-  width: 16px;
-  height: 23px;
-  opacity: 0;
-} */
-/* .cc-label {
-  position: relative;
-  vertical-align: top;
-  user-select: none;
-}
-.cc-label::before {
-  position: absolute;
-  top: 3px;
-  left: -25px;
-  display: block;
-  width: 16px;
-  height: 16px;
-  content: "";
-  border: 1px solid #d19c97;
-}
-.custom-control-check input:checked ~ .cc-label::before {
-  border-color: #d19c97;
-  background-color: #d19c97;
-}
-.cc-label::after {
-  position: absolute;
-  top: 4px;
-  left: -24px;
-  display: block;
-  width: 16px;
-  height: 16px;
-  content: "";
-  background: no-repeat 50% / 50% 50%;
-}
-.custom-control-check input:checked ~ .cc-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
-} */
 
 /* Listing Section */
 .listing {
@@ -166,7 +118,4 @@ main {
 @media only screen and (max-width: 992px) {
 }
 
-/* #F4EFE6
-#1C160C
-#A18249
-#019863 */
+/* color: #f4efe6 #1c160c #a18249 #019863; */
