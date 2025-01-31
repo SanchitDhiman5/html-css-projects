@@ -26,6 +26,7 @@ table {
 thead {
   background-color: #a18249;
   text-align: center;
+  border: 1.5px solid #a18249;
 }
 th {
   padding: 15px;
@@ -152,6 +153,7 @@ td {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
   }
   .cart-table {
     width: 100%;
@@ -159,9 +161,35 @@ td {
   .checkout-box {
     width: 100%;
   }
+
+  .coupon-input button {
+    font-size: 18px;
+  }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 520px) {
+  th {
+    padding: 8px;
+  }
+  tbody td:first-child {
+    text-align: center;
+  }
+  td {
+    padding: 0;
+  }
+  .quantity-input input {
+    width: 22px;
+  }
+  .quantity-input button {
+    font-size: 19px;
+    width: 22px;
+  }
+  .coupon-input button {
+    font-size: 15px;
+  }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
+  th {
+    padding: 5px;
+  }
 }
